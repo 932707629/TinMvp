@@ -3,6 +3,9 @@
     package="me.soushin.tinmvp">
     <uses-permission android:name="android.permission.INTERNET" />
 
+
+
+
     <application
         android:name=".App"
         android:allowBackup="true"
