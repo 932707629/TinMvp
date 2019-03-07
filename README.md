@@ -52,15 +52,15 @@
 
 ### 使用插件一键生成Activity/Fragment ###
 
-templates.zip这个压缩文件里放着LhhActivity和LhhFragment两个文件夹
+templates.zip这个压缩文件里放着TinActivity和TinFragment两个文件夹
 
 首先解压得到这两个文件夹
 
-LhhActivity放到AS安装目录\plugins\android\lib\templates\activities里
+TinActivity放到AS安装目录\plugins\android\lib\templates\activities里
 
-LhhFragment放到AS安装目录\plugins\android\lib\templates\other里
+TinFragment放到AS安装目录\plugins\android\lib\templates\other里
 
-放进去之后重启AS,然后在需要建Activity/Fragment的地方,右键--New--Activity/Fragment--LhhActivity/LhhFragment,然后给Activity/Fragment取个名字,点击Finish,欧克,打完收功!
+放进去之后重启AS,然后在需要建Activity/Fragment的地方,右键--New--Activity/Fragment--TinActivity/TinFragment,然后给Activity/Fragment取个名字,点击Finish,欧克,打完收功!
 
 ### 注意: ###
 
