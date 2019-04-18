@@ -8,6 +8,7 @@ import android.view.View;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import me.soushin.tinmvp.R;
+import me.soushin.tinmvp.Utils.DialogUtils;
 
 /**
  * Created by SouShin on 2018/8/111736.
@@ -27,6 +28,7 @@ public class BaseDialog extends Dialog {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = inflater.inflate(layoutId, null);
         this.setContentView(view);
+        DialogUtils.addDialog(this);
         unbinder = ButterKnife.bind(this);
     }
 
